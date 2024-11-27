@@ -1,2 +1,2 @@
 # sousakai.github.io
-Portfolio
+Página de apresentação e portfolio com HTML, CSS e Javascript.
