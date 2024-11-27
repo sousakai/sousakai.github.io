@@ -1,6 +1,9 @@
+/* CSS NAVBAR */
 .navbar{
     background-color: black;
 }
+
+/* CSS FOOTER */
 footer {
     position: fixed;
     bottom:0;
@@ -9,18 +12,13 @@ footer {
     width: 100%;
 }
 
-/* CSS DO CONTEÚDO PRINCIPAL */
-
-#sobre-mim{
-    width: 50%;
-    height:auto;
-    margin-top: 5%;
+/* CSS FUNDO GRADIENTE*/
+html, body {
+    height: 100%;
 }
 
-#titulo-nome{
-    font-size: 40px;
-}
+body {
+background: rgb(73,72,72);
+background: linear-gradient(0deg, rgba(73,72,72,1) 0%, rgba(0,0,0,1) 100%);
 
-#texto-apresentacao{
-    font-size: 17px;
 }

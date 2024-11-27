@@ -1,6 +1,9 @@
+/* CSS NAVBAR */
 .navbar{
     background-color: black;
 }
+
+/* CSS FOOTER */
 footer {
     position: fixed;
     bottom:0;
@@ -10,9 +13,14 @@ footer {
 }
 
 /* CSS DO CONTEÚDO PRINCIPAL */
-
+.texto{
+    color: white;
+    margin-left: 2%;
+    text-align: left;
+    max-width: 90%;
+}
 #sobre-mim{
-    width: 50%;
+    width: 100%;
     height:auto;
     margin-top: 5%;
 }
@@ -23,4 +31,35 @@ footer {
 
 #texto-apresentacao{
     font-size: 17px;
+}
+
+#imagem-perfil{
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom:5%;
+ 
+}
+#foto-kayke {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    border: 6px solid antiquewhite;
+}
+
+/* GRID DISPLAY (ORGANIZA O TEXTO E A IMAGEM LADO A LADO) */
+
+.grid-display {
+    display: flex; /* Usando flexbox em vez de grid */
+    align-items: center;
+    gap: 20px;
+}
+/* CSS FUNDO GRADIENTE*/
+html, body {
+    height: 100%;
+}
+
+body {
+background: rgb(73,72,72);
+background: linear-gradient(0deg, rgba(73,72,72,1) 0%, rgba(0,0,0,1) 100%);
+
 }
