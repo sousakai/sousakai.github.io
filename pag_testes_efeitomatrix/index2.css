@@ -53,13 +53,29 @@ footer {
     align-items: center;
     gap: 20px;
 }
-/* CSS FUNDO GRADIENTE*/
-html, body {
-    height: 100%;
+
+/* card dos textos */
+
+#contraste{
+    background-color: rgba(2, 0, 1, 0.9)
 }
+/* MATRIX */
 
 body {
-background: rgb(73,72,72);
-background: linear-gradient(0deg, rgba(73,72,72,1) 0%, rgba(0,0,0,1) 100%);
+    background: black;}
 
+    /* TODO: VERIFICAR NOVAMENTE E REINSERIR O MATRIX COMO BACKGROUND SE NECESSÁRIO. */ 
+    
+canvas {
+    position: absolute; /* Faz o canvas ficar em segundo plano */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Ajuste a opacidade para que o efeito de fundo não sobrecarregue o conteúdo */
+    z-index: -1; /* Garante que o canvas fique atrás do conteúdo */
+    display: block;
 }
+
+
+
