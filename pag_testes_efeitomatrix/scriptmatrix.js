@@ -1,3 +1,9 @@
+/* FONTE DO CÓDIGO MATRIX: 
+MATRIX CODE:, BY BOUJJOU ACHRAF
+https://codepen.io/wefiy/pen/WPpEwo
+
+*/
+
 // geting canvas by Boujjou Achraf
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
@@ -46,6 +52,8 @@ function draw()
 
         //incrementing Y coordinate
         drops[i]++;
+
+       
     }
 }
 
