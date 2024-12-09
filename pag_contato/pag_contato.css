@@ -30,3 +30,44 @@ background: linear-gradient(0deg, rgba(73,72,72,1) 0%, rgba(0,0,0,1) 100%);
     color: white;
     font-size: 18px;
 }
+
+/* SEÇÃO DE CSS PARA OS ÍCONES DE CONTATO */
+/* TODO: AJUSTAR HOVER DOS ÍCONES, MONTAR FUNDO DO CARD, ORGANIZAR O CONTATO E CARD, ALTERAR CORES PARA CONTRASTE IDEAL, ARREDONDAR ÍCONES. */
+.fa-brands {
+  font-size: 3em;
+  color: #f8f8f8; /* Cor do ícone (LinkedIn) */
+  transition: transform 0.3s, color 0.3s;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%; /* Deixa o fundo arredondado */
+  padding: 10px; /* Adiciona espaço ao redor do ícone */
+}
+
+.fa-brands:hover {
+  transform: scale(1.2);
+  color: #f1ea5c; /* Cor ao passar o mouse */
+}
+
+.fab {
+  font-size: 3em;
+  color: #ffffff; /* Cor do ícone (LinkedIn) */
+  transition: transform 0.3s, color 0.3s;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%; /* Deixa o fundo arredondado */
+  padding: 10px; /* Adiciona espaço ao redor do ícone */
+}
+
+.fa-solid{
+  font-size: 3em;
+  color: #ffffff; /* Cor do ícone (LinkedIn) */
+  transition: transform 0.3s, color 0.3s;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%; /* Deixa o fundo arredondado */
+  padding: 10px; /* Adiciona espaço ao redor do ícone */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado do link */
+  display: inline-block; /* Para o link se comportar como um bloco */
+  margin-left: 10px; /* Dá espaço entre os links */
+}
+
