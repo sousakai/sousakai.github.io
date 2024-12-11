@@ -23,51 +23,79 @@ background: linear-gradient(0deg, rgba(73,72,72,1) 0%, rgba(0,0,0,1) 100%);
 
 }
 
-#mensagem-provisoria{
-    width: 50%;
-    height: 50%;
-    background-color: black;
-    color: white;
-    font-size: 18px;
+/* CSS GRID DOS ÍCONES */
+.grid-icones{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+padding: 50px;
+margin: 50px;
+
+/* TODO: IDENTIFICAR O MOTIVO DA POSIÇÃO ERRADA DO ÍCONE LINKEDIN; mudar parâmetros de px para %.
+justify-items: center;
+*/
+
 }
 
-/* SEÇÃO DE CSS PARA OS ÍCONES DE CONTATO */
-/* TODO: AJUSTAR HOVER DOS ÍCONES, MONTAR FUNDO DO CARD, ORGANIZAR O CONTATO E CARD, ALTERAR CORES PARA CONTRASTE IDEAL, ARREDONDAR ÍCONES. */
-.fa-brands {
-  font-size: 3em;
-  color: #f8f8f8; /* Cor do ícone (LinkedIn) */
-  transition: transform 0.3s, color 0.3s;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 50%; /* Deixa o fundo arredondado */
-  padding: 10px; /* Adiciona espaço ao redor do ícone */
+/* CSS DOS ÍCONES  */
+.card-icones{
+    color:white;
 }
-
-.fa-brands:hover {
-  transform: scale(1.2);
-  color: #f1ea5c; /* Cor ao passar o mouse */
+#icone-linkedin{
+    width: 100%;
 }
-
-.fab {
-  font-size: 3em;
-  color: #ffffff; /* Cor do ícone (LinkedIn) */
-  transition: transform 0.3s, color 0.3s;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 50%; /* Deixa o fundo arredondado */
-  padding: 10px; /* Adiciona espaço ao redor do ícone */
+.fa-brands{
+    color:white;
 }
 
 .fa-solid{
-  font-size: 3em;
-  color: #ffffff; /* Cor do ícone (LinkedIn) */
-  transition: transform 0.3s, color 0.3s;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 50%; /* Deixa o fundo arredondado */
-  padding: 10px; /* Adiciona espaço ao redor do ícone */
+    color: white;
 }
 
-a {
-  text-decoration: none; /* Remove o sublinhado do link */
-  display: inline-block; /* Para o link se comportar como um bloco */
-  margin-left: 10px; /* Dá espaço entre os links */
+/*footer gpt
+TODO: CORRIGIR O FOOTER, ORGANIZAR
+
+ */
+ html, body {
+    height: 100%; /* Garante que o corpo ocupe toda a altura da janela */
+    margin: 0;    /* Remove a margem padrão */
 }
 
+body {
+    display: flex;
+    flex-direction: column; /* Faz o layout ficar de cima para baixo */
+}
+
+main {
+    flex: 1; /* Garante que o conteúdo ocupe o máximo de espaço possível */
+}
+
+.footer {
+    background-color: rgb(47, 47, 47);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px; /* Alinha o texto verticalmente */
+    margin-bottom: 0;
+    color:white;
+}
+
+
+main {
+    flex: 1; /* O conteúdo principal ocupa o máximo de espaço disponível */
+    margin-bottom: 0; /* Garante que o conteúdo não empurre o footer */
+}
+
+
+html, body {
+    height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    padding-bottom: 0;
+}
